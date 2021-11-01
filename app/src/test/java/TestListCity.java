@@ -33,7 +33,7 @@ public class TestListCity {
         list.addCity(mockCity);
         assertTrue(list.hasCity(mockCity));
     }
-
+    /*
     @Test
     public void deleteCityTest(){
         createList();
@@ -51,4 +51,6 @@ public class TestListCity {
         int listSize = list.getCount();
         assertEquals(1, listSize);
     }
+
+     */
 }
