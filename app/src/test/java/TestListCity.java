@@ -33,7 +33,7 @@ public class TestListCity {
         list.addCity(mockCity);
         assertTrue(list.hasCity(mockCity));
     }
-    /*
+
     @Test
     public void deleteCityTest(){
         createList();
@@ -43,14 +43,12 @@ public class TestListCity {
         list.deleteCity(new City("Edmonton", "AB"));
         assertEquals(1, listSize - 1);
     }
-
+    /*
     @Test
     public void testCountCities(){
         createList();
         list.addCity(new City("Halifax", "NS"));
         int listSize = list.getCount();
         assertEquals(1, listSize);
-    }
-
-     */
+    }*/
 }
