@@ -39,9 +39,8 @@ public class TestListCity {
         createList();
         list.addCity(new City("Halifax", "NS"));
         list.addCity(new City("Edmonton", "AB"));
-        int listSize = list.getCount();
         list.deleteCity(new City("Edmonton", "AB"));
-        assertEquals(1, listSize - 1);
+        assertEquals(1, list.getCount());
     }
     /*
     @Test
